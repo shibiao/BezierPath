@@ -13,6 +13,8 @@
 		697B6A591FE0B0EA00F3F2D9 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 697B6A581FE0B0EA00F3F2D9 /* Assets.xcassets */; };
 		697B6A5C1FE0B0EA00F3F2D9 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 697B6A5A1FE0B0EA00F3F2D9 /* LaunchScreen.storyboard */; };
 		697B6A5F1FE0B0EA00F3F2D9 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 697B6A5E1FE0B0EA00F3F2D9 /* main.m */; };
+		697B6A671FE0B0F200F3F2D9 /* DrawView.m in Sources */ = {isa = PBXBuildFile; fileRef = 697B6A661FE0B0F200F3F2D9 /* DrawView.m */; };
+		697B6A6A1FE0CC9800F3F2D9 /* DrawControlView.m in Sources */ = {isa = PBXBuildFile; fileRef = 697B6A691FE0CC9800F3F2D9 /* DrawControlView.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +28,10 @@
 		697B6A5B1FE0B0EA00F3F2D9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		697B6A5D1FE0B0EA00F3F2D9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		697B6A5E1FE0B0EA00F3F2D9 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		697B6A651FE0B0F200F3F2D9 /* DrawView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DrawView.h; sourceTree = "<group>"; };
+		697B6A661FE0B0F200F3F2D9 /* DrawView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DrawView.m; sourceTree = "<group>"; };
+		697B6A681FE0CC9800F3F2D9 /* DrawControlView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DrawControlView.h; sourceTree = "<group>"; };
+		697B6A691FE0CC9800F3F2D9 /* DrawControlView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DrawControlView.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -62,6 +68,10 @@
 				697B6A501FE0B0EA00F3F2D9 /* AppDelegate.m */,
 				697B6A521FE0B0EA00F3F2D9 /* ViewController.h */,
 				697B6A531FE0B0EA00F3F2D9 /* ViewController.m */,
+				697B6A681FE0CC9800F3F2D9 /* DrawControlView.h */,
+				697B6A691FE0CC9800F3F2D9 /* DrawControlView.m */,
+				697B6A651FE0B0F200F3F2D9 /* DrawView.h */,
+				697B6A661FE0B0F200F3F2D9 /* DrawView.m */,
 				697B6A551FE0B0EA00F3F2D9 /* Main.storyboard */,
 				697B6A581FE0B0EA00F3F2D9 /* Assets.xcassets */,
 				697B6A5A1FE0B0EA00F3F2D9 /* LaunchScreen.storyboard */,
@@ -144,6 +154,8 @@
 			files = (
 				697B6A541FE0B0EA00F3F2D9 /* ViewController.m in Sources */,
 				697B6A5F1FE0B0EA00F3F2D9 /* main.m in Sources */,
+				697B6A671FE0B0F200F3F2D9 /* DrawView.m in Sources */,
+				697B6A6A1FE0CC9800F3F2D9 /* DrawControlView.m in Sources */,
 				697B6A511FE0B0EA00F3F2D9 /* AppDelegate.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
